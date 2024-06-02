@@ -1,0 +1,237 @@
+*{margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Devanagari', sans-serif}
+
+/* Navigation Bar */
+
+header a{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+}
+
+header a:hover{
+    color: #FF4655;
+}
+
+.weapon-background{
+    width: 100%;
+}
+
+.weapon-background img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Weapons */
+
+.weapon-container{
+    padding: 0 100px;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.weapon-container h2{
+    color: #1f232c;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+}
+
+.weapon-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.weapon-container ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    background-color: #1f232c;
+    box-shadow: 0 0 10px #FF4655;
+    text-transform: uppercase;
+}
+
+.weapon-container ul li.active{
+    color: white;
+    background-color: #FF4655;
+}
+
+.weapon-container .cardBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100%;
+}
+
+.weapon-container .cardBx .card{
+    background-color: #EDE8E1;
+    width: 330px;
+    height: 470px;
+    border-radius: 10px;
+    margin: 20px 35px;
+    overflow: hidden;
+}
+
+.weapon-container .cardBx .card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding-top: 30px;
+}
+
+.weapon-container .cardBx .card .content{
+    padding: 20px;
+}
+
+.weapon-container .cardBx .card .content h4{
+    color: #FF4655;
+    margin: 15px 0;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+}
+
+.weapon-container .cardBx .card .info{
+    border-top: 2px solid #1f232c;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weapon-container .cardBx .card .info p{
+    font-size: 14px;
+    color: #1f232c;
+    line-height: 25px;
+}
+
+.weapon-container .cardBx .card.hide{
+    display: none;
+}
+
+/* Footer */
+
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f232c;
+    height: auto;
+    position: relative;
+    padding-top: 40px;
+    width: 100%;
+    color: #FF4655;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer img{
+    width: 50px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    font-weight: bold;
+    font-family: 'VALORANT', sans-serif;
+                                                
+}
+
+p{
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.icon_container{
+    list-style: none;
+    display: flex;
+    margin: 16px 0 45px 0;
+}
+
+.icon_container li{
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #e6e3e3;
+}
+
+.footer_menu_container{
+    margin-bottom: 20px;
+}
+
+.footer_menu_container ul{
+    display: flex;
+}
+
+.footer_menu_container ul li{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.footer_menu_container ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #FF4655;
+    padding: 6px 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #FF4655;
+}
+
+.footer_menu_container a:hover{
+    background: #FF4655;
+}
+
+.credit{
+    background-color: #FF4655;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    color: #1f232c;
+    text-align: center;
+}
+
+.credit p{
+    text-transform: capitalize;
+    font-size: 14px;
+    word-spacing: 4px;
+    font-weight: bold;
+}
