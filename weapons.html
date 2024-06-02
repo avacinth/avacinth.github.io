@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/noto-sans-devanagari" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weapons.css">
+</head>
+<body>
+    
+<!-- Navigation Bar -->
+
+<header class="weapon-background">
+    <img src="pics/weapon-background.jpeg">
+    <nav>
+        <ul>
+            <li><a href="index.html" style='font-size:60px'>&#8678;</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="weapon-container">
+    <h2>WEAPONS</h2>
+    <ul>
+        <li class="list active" data-filter="Sidearms">Sidearms</li>
+        <li class="list" data-filter="SMGS">SMGS</li>
+        <li class="list" data-filter="Shotguns">Shotguns</li>
+        <li class="list" data-filter="Rifles">Rifles</li>
+        <li class="list" data-filter="Snipers">Snipers</li>
+        <li class="list" data-filter="Heavies">Heavies</li>
+        <li class="list" data-filter="Melee">Melee</li>
+    </ul>
+    <div class="cardBx">
+        <!-- Sidearms -->
+        <div class="card active" data-item="Sidearms">
+            <img src="pics/sidearms-classic.png">
+            <div class="content">
+                <h4>CLASSIC.</h4>
+                <div class="info">
+                    <p>Primary fire lands precise shots when still, and is equipped with an alternate burst-firing mode for close encounters.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card active" data-item="Sidearms">
+            <img src="pics/sidearms-shorty.png" style="height: auto; padding: 90px 10px 50px 10px;">
+            <div class="content">
+                <h4>SHORTY.</h4>
+                <div class="info">
+                    <p>A nimble, short barrel shotgun that is deadly at close range but can only fire twice before needing to reload. Pairs well with long range weapons.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card active" data-item="Sidearms">
+            <img src="pics/frenzy.webp" style="height: auto; padding: 10px 0px 0px 0px;">
+            <div class="content">
+                <h4>FRENZY.</h4>
+                <div class="info">
+                    <p>Lightweight machine pistol that excels at firing on the move. Its high rate-of-fire can be difficult to control, so try short bursts at medium ranges.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card active" data-item="Sidearms">
+            <img src="pics/ghost.png" style="height: auto; padding: 80px 10px 30px 10px;">
+            <div class="content">
+                <h4>GHOST.</h4>
+                <div class="info">
+                    <p>The Ghost is accurate and carries a large magazine if you miss. Distant targets require a controlled fire rate. Quickly tap the trigger when you can see the whites of their eyes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card active" data-item="Sidearms">
+            <img src="pics/sheriff.png" style="height: auto; padding: 45px 10px 3px 10px;">
+            <div class="content">
+                <h4>SHERIFF.</h4>
+                <div class="info">
+                    <p>Its high-impact rounds pack a ton of recoil and require true grit to master.<br><br>
+                        Wield the Sheriff right, and your enemies will know they were expendable.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SMGS -->
+        <div class="card hide" data-item="SMGS">
+            <img src="pics/stinger.png" style="height: auto; padding: 25px 10px 3px 10px;">
+            <div class="content">
+                <h4>STINGER.</h4>
+                <div class="info">
+                    <p>This SMG is more potent at medium to long range than its counterparts, but at the cost of firing rate and mobility.<br><br>
+                        The 20-round mag gets wasted in recoil-filled sprays, but lands lethal blows at medium distances with ADS and controlled fire.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="SMGS">
+            <img src="pics/spectre.png" style="height: auto; padding: 25px 10px 3px 10px;">
+            <div class="content">
+                <h4>SPECTRE.</h4>
+                <div class="info">
+                    <p>A jack-of-all-trades weapon with a great balance of damage, fire rate, and accuracy—at both short and mid range.<br><br>
+                        It haunts the corners of every map and requires only steady aim to drop foes at long distance.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shotguns -->
+        <div class="card hide" data-item="Shotguns">
+            <img src="pics/bucky.png" style="height: auto; padding: 55px 10px 20px 10px;">
+            <div class="content">
+                <h4>BUCKY.</h4>
+                <div class="info">
+                    <p>Heavy but stable, Bucky's primary fire is for holding tight corners or charging close quarters. Alternate fire strikes targets at medium range.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Shotguns">
+            <img src="pics/judge.png" style="height: auto; padding: 60px 10px 20px 10px;">
+            <div class="content">
+                <h4>JUDGE.</h4>
+                <div class="info">
+                    <p>The Judge is stable at the stand but volatile when fired rapidly.<br><br>
+                        Primary fire hammers short range targets and you'll need to be steady to nail anything beyond an arm's-length.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rifles -->
+        <div class="card hide" data-item="Rifles">
+            <img src="pics/bulldog.png" style="height: auto; padding: 65px 10px 25px 10px;">
+            <div class="content">
+                <h4>BULLDOG.</h4>
+                <div class="info">
+                    <p>A surefire beast when you can pick your shots. Alt. fire lets you ADS and spew accurate, short bursts at anyone who tries you from medium to long-range.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Rifles">
+            <img src="pics/guardian.png" style="height: auto; padding: 55px 10px 20px 10px;">
+            <div class="content">
+                <h4>GUARDIAN.</h4>
+                <div class="info">
+                    <p>The designated marksman rifle. Heavier and less mobile relative to other rifles but precise and powerful. Headhunt when enemies appear at medium to long distances.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Rifles">
+            <img src="pics/phantom.png" style="height: auto; padding: 55px 10px 20px 10px;">
+            <div class="content">
+                <h4>PHANTOM.</h4>
+                <div class="info">
+                    <p>Go full auto for anyone who tests you up close and short controlled bursts scramble enemies from anywhere. Best when fired while stationary.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Rifles">
+            <img src="pics/vandal.webp" style="height: auto; padding: 65px 10px 25px 10px;">
+            <div class="content">
+                <h4>VANDAL.</h4>
+                <div class="info">
+                    <p>The Vandal retains high damage over distance and rewards those who focus single shots at a target’s head. Extended fire results in less stability, however.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Snipers -->
+        <div class="card hide" data-item="Snipers">
+            <img src="pics/marshal.png" style="height: auto; padding: 65px 10px 25px 10px;">
+            <div class="content">
+                <h4>MARSHAL.</h4>
+                <div class="info">
+                    <p>A nimble lever-action sniper rifle with a single zoom that can keep bullish enemies at bay. A slow rate of fire means you have to either hit the mark or leave yourself open to attacks.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Snipers">
+            <img src="pics/operator.png" style="height: auto; padding: 65px 10px 25px 10px;">
+            <div class="content">
+                <h4>OPERATOR.</h4>
+                <div class="info">
+                    <p>A fierce bolt-action sniper rifle with high-powered dual zoom. Extremely immobile but fires an incredibly powerful round that can devastate a team with one shot.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Snipers">
+            <img src="pics/outlaw.png" style="height: auto; padding: 65px 10px 25px 10px;">
+            <div class="content">
+                <h4>OUTLAW.</h4>
+                <div class="info">
+                    <p>A highly-lethal, mid-range Sniper rifle that can fire two shots before scoping out. The long reload time can put you in a pinch, so pick your shots carefully.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Heavies -->
+        <div class="card hide" data-item="Heavies">
+            <img src="pics/ares.png" style="height: auto; padding: 70px 10px 25px 10px;">
+            <div class="content">
+                <h4>ARES.</h4>
+                <div class="info">
+                    <p>The Ares' large magazine means it excels at suppressive fire or dealing heavy damage to clustered groups.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" data-item="Heavies">
+            <img src="pics/odin.png" style="height: auto; padding: 90px 10px 35px 10px;">
+            <div class="content">
+                <h4>ODIN.</h4>
+                <div class="info">
+                    <p>Suppressive, high damage fire with surprising stability. Spray enemies at short range and use alt. fire to make yourself a living turret.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Melee -->
+        <div class="card hide" data-item="Melee">
+            <img src="pics/knife.png" style="height: auto; padding: 90px 10px 35px 10px;">
+            <div class="content">
+                <h4>TACTICAL KNIFE.</h4>
+                <div class="info">
+                    <p>When in doubt or out of bullets, hit them with this. Lets you run fast, destroy objects faster, or one-shot enemies in the back with alt. fire.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer_content">
+        <h3>VALORANT</h3>
+        <img src="pics/valorant_logo.webp">
+        <p>&#169; 2020-2024 Riot Games, Inc. RIOT GAMES, VALORANT and any associated logos are 
+            trademarks, service marks, and/or registered trademarks of Riot Games, Inc.</p>
+
+        <!-- Icons -->
+        <ul class="icon_container">
+            <li><a href="" class="fa fa-twitter"></a></li>
+            <li><a href="" class="fa fa-youtube"></a></li>
+            <li><a href="" class="fa fa-instagram"></a></li>
+            <li><a href="" class="fa fa-facebook"></a></li>
+            <li><a href="" class="fa fa-twitch"></a></li>
+        </ul>
+
+        <!-- Footer Menu -->
+        <div class="footer_menu_container">
+            <ul class="footer_menu">
+                <li><a href="">Privacy Notice</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Company Information</a></li>
+                <li><a href="">Cookie Preferences</a></li>
+            </ul>
+        </div>
+        <!-- Credit -->
+        <div class="credit">
+            <p>Designed by Hyacinth Ava Toribio</p>
+        </div>
+    </div>
+</footer>
+
+<script src="weapons.js"></script>
+
+</body>
+</html>
