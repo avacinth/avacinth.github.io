@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Navigation Bar */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(pics/main_pic.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container nav{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 8%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+
+.container nav .logo img{
+    width: 65px;
+    margin-top: 12px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.container nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    text-transform: uppercase;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.container nav ul li a:hover{
+    color: #FF4655;
+}
+
+.container nav .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border: 2px solid #FF4655;
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #FF4655;
+    transition: 0.3s;
+}
+
+.container nav .btn a:hover{
+    background: #FF4655;
+}
+
+/* Name */
+
+.container .tag_line{
+    position: absolute;
+    top: 63%;
+    left: 8%;
+}
+
+.container .tag_line .gareena_logo{
+    display: flex;
+    align-items: center;
+}
+
+.container .tag_line .gareena_logo img{
+    width: 120px;
+}
+
+.container .tag_line .gareena_logo p{
+    color: #e7e7e7;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.container .tag_line h2{
+    color: #e6e3e3;
+    font-size: 55px;
+    text-shadow: 0 0 20px black;
+    margin: 10px 0;
+}
+
+.container .tag_line h1{
+    color: #04FCCF;
+    text-shadow: 3px 0 20px black;
+    font-size: 65px;
+    font-family: 'VALORANT', sans-serif;
+                                                
+}
+
+/* About Section */
+
+
+.about {
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 50px; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 100px;
+    width: 100%;
+    position: relative; 
+    z-index: 1;
+}
+
+.about_data h2{
+    font-size: 50px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.about_data h3{
+    font-size: 30px;
+    color: #FF4655;
+}
+
+.about_data p{
+    font-size: 15px;
+}
+
+.about_container{
+    row-gap: 48px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.about_container{
+    row-gap: 48px;
+}
+
+.about_data{
+    text-align: center;
+    width: 950px;
+    padding-right: 50px;
+}
+
+.about_description{
+    margin-bottom: 32px;
+}
+
+.about_image{
+    position: relative;
+    justify-self: center;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.about_img{
+    width: 250px;
+    height: auto;
+    width: 700px;
+    transition: transform .4s;
+}
+
+.about_img:hover .about_img{
+    transform: scale(1.2);
+}
+
+/* Map Section */
+
+.map-container{
+    background-color: #e7e7e7;
+    text-align: center;
+    width: 100%;
+    position: relative; 
+    z-index: 1;
+}
+
+.map-img{
+    width: 100%;
+    height: 500px;
+}
+
+.map-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.map-content h2{
+    font-size: 50px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.map-content h3{
+    font-size: 30px;
+    color: #FF4655;
+}
+
+.map-content p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.map-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #FF4655;
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #FF4655;
+    transition: 0.3s;
+}
+
+.map-content a:hover{
+    background: #FF4655;
+    color: white;
+}
+
+/* Video */
+
+.vid-container {
+    background-color: #e7e7e7;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+}
+
+.vid {
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18%;
+    padding-bottom: 85px;
+    padding-top: 30px;
+}
+
+.vid-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #FF4655;
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #FF4655;
+    transition: 0.3s;
+    padding-left: -200px;
+}
+
+.vid-container a:hover{
+    background: #FF4655;
+    color: white;
+}
+
+.vid-button{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* Footer */
+
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f232c;
+    height: auto;
+    position: relative;
+    padding-top: 40px;
+    width: 100%;
+    color: #FF4655;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer img{
+    width: 50px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    font-weight: bold;
+    font-family: 'VALORANT', sans-serif;
+                                                
+}
+
+p{
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.icon_container{
+    list-style: none;
+    display: flex;
+    margin: 16px 0 45px 0;
+}
+
+.icon_container li{
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #e6e3e3;
+}
+
+.footer_menu_container{
+    margin-bottom: 20px;
+}
+
+.footer_menu_container ul{
+    display: flex;
+}
+
+.footer_menu_container ul li{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.footer_menu_container ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #FF4655;
+    padding: 6px 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #FF4655;
+}
+
+.footer_menu_container a:hover{
+    background: #FF4655;
+}
+
+.credit{
+    background-color: #FF4655;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    color: #1f232c;
+    text-align: center;
+}
+
+.credit p{
+    text-transform: capitalize;
+    font-size: 14px;
+    word-spacing: 4px;
+    font-weight: bold;
+}
